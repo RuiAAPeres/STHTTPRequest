@@ -9,13 +9,34 @@
 /* Begin PBXBuildFile section */
 		C75D2F841A1F5678008AACA4 /* STHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C75D2F821A1F5678008AACA4 /* STHTTPRequest.h */; };
 		C75D2F851A1F5678008AACA4 /* STHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C75D2F831A1F5678008AACA4 /* STHTTPRequest.m */; };
+		C75D2FD81A1F8326008AACA4 /* CarthageTesting.h in Headers */ = {isa = PBXBuildFile; fileRef = C75D2FD71A1F8326008AACA4 /* CarthageTesting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C75D2FDE1A1F8326008AACA4 /* CarthageTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C75D2FD31A1F8326008AACA4 /* CarthageTesting.framework */; };
+		C75D2FE51A1F8326008AACA4 /* CarthageTestingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C75D2FE41A1F8326008AACA4 /* CarthageTestingTests.m */; };
+		C75D2FEC1A1F8333008AACA4 /* STHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C75D2F821A1F5678008AACA4 /* STHTTPRequest.h */; };
+		C75D2FED1A1F8333008AACA4 /* STHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C75D2F831A1F5678008AACA4 /* STHTTPRequest.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C75D2FDF1A1F8326008AACA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C75D2F571A1F5528008AACA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C75D2FD21A1F8326008AACA4;
+			remoteInfo = CarthageTesting;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		C75D2F601A1F5528008AACA4 /* STHTTPRequest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STHTTPRequest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C75D2F641A1F5528008AACA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C75D2F821A1F5678008AACA4 /* STHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STHTTPRequest.h; sourceTree = "<group>"; };
 		C75D2F831A1F5678008AACA4 /* STHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STHTTPRequest.m; sourceTree = "<group>"; };
+		C75D2FD31A1F8326008AACA4 /* CarthageTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CarthageTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75D2FD61A1F8326008AACA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C75D2FD71A1F8326008AACA4 /* CarthageTesting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarthageTesting.h; sourceTree = "<group>"; };
+		C75D2FDD1A1F8326008AACA4 /* CarthageTestingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarthageTestingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75D2FE31A1F8326008AACA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C75D2FE41A1F8326008AACA4 /* CarthageTestingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarthageTestingTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +47,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C75D2FCF1A1F8326008AACA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75D2FDA1A1F8326008AACA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75D2FDE1A1F8326008AACA4 /* CarthageTesting.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -33,6 +69,8 @@
 			isa = PBXGroup;
 			children = (
 				C75D2F621A1F5528008AACA4 /* STHTTPRequest */,
+				C75D2FD41A1F8326008AACA4 /* CarthageTesting */,
+				C75D2FE11A1F8326008AACA4 /* CarthageTestingTests */,
 				C75D2F611A1F5528008AACA4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +79,8 @@
 			isa = PBXGroup;
 			children = (
 				C75D2F601A1F5528008AACA4 /* STHTTPRequest.framework */,
+				C75D2FD31A1F8326008AACA4 /* CarthageTesting.framework */,
+				C75D2FDD1A1F8326008AACA4 /* CarthageTestingTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,6 +111,40 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
+		C75D2FD41A1F8326008AACA4 /* CarthageTesting */ = {
+			isa = PBXGroup;
+			children = (
+				C75D2FD71A1F8326008AACA4 /* CarthageTesting.h */,
+				C75D2FD51A1F8326008AACA4 /* Supporting Files */,
+			);
+			path = CarthageTesting;
+			sourceTree = "<group>";
+		};
+		C75D2FD51A1F8326008AACA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C75D2FD61A1F8326008AACA4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C75D2FE11A1F8326008AACA4 /* CarthageTestingTests */ = {
+			isa = PBXGroup;
+			children = (
+				C75D2FE41A1F8326008AACA4 /* CarthageTestingTests.m */,
+				C75D2FE21A1F8326008AACA4 /* Supporting Files */,
+			);
+			path = CarthageTestingTests;
+			sourceTree = "<group>";
+		};
+		C75D2FE21A1F8326008AACA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C75D2FE31A1F8326008AACA4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -79,6 +153,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				C75D2F841A1F5678008AACA4 /* STHTTPRequest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75D2FD01A1F8326008AACA4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75D2FD81A1F8326008AACA4 /* CarthageTesting.h in Headers */,
+				C75D2FEC1A1F8333008AACA4 /* STHTTPRequest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +186,42 @@
 			productReference = C75D2F601A1F5528008AACA4 /* STHTTPRequest.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		C75D2FD21A1F8326008AACA4 /* CarthageTesting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C75D2FE61A1F8326008AACA4 /* Build configuration list for PBXNativeTarget "CarthageTesting" */;
+			buildPhases = (
+				C75D2FCE1A1F8326008AACA4 /* Sources */,
+				C75D2FCF1A1F8326008AACA4 /* Frameworks */,
+				C75D2FD01A1F8326008AACA4 /* Headers */,
+				C75D2FD11A1F8326008AACA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarthageTesting;
+			productName = CarthageTesting;
+			productReference = C75D2FD31A1F8326008AACA4 /* CarthageTesting.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C75D2FDC1A1F8326008AACA4 /* CarthageTestingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C75D2FE91A1F8326008AACA4 /* Build configuration list for PBXNativeTarget "CarthageTestingTests" */;
+			buildPhases = (
+				C75D2FD91A1F8326008AACA4 /* Sources */,
+				C75D2FDA1A1F8326008AACA4 /* Frameworks */,
+				C75D2FDB1A1F8326008AACA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C75D2FE01A1F8326008AACA4 /* PBXTargetDependency */,
+			);
+			name = CarthageTestingTests;
+			productName = CarthageTestingTests;
+			productReference = C75D2FDD1A1F8326008AACA4 /* CarthageTestingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -113,6 +232,12 @@
 				ORGANIZATIONNAME = STHTTPRequest;
 				TargetAttributes = {
 					C75D2F5F1A1F5528008AACA4 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					C75D2FD21A1F8326008AACA4 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					C75D2FDC1A1F8326008AACA4 = {
 						CreatedOnToolsVersion = 6.1;
 					};
 				};
@@ -130,12 +255,28 @@
 			projectRoot = "";
 			targets = (
 				C75D2F5F1A1F5528008AACA4 /* STHTTPRequest */,
+				C75D2FD21A1F8326008AACA4 /* CarthageTesting */,
+				C75D2FDC1A1F8326008AACA4 /* CarthageTestingTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C75D2F5E1A1F5528008AACA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75D2FD11A1F8326008AACA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75D2FDB1A1F8326008AACA4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -153,7 +294,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C75D2FCE1A1F8326008AACA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75D2FED1A1F8333008AACA4 /* STHTTPRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75D2FD91A1F8326008AACA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75D2FE51A1F8326008AACA4 /* CarthageTestingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C75D2FE01A1F8326008AACA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C75D2FD21A1F8326008AACA4 /* CarthageTesting */;
+			targetProxy = C75D2FDF1A1F8326008AACA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		C75D2F741A1F5528008AACA4 /* Debug */ = {
@@ -270,6 +435,70 @@
 			};
 			name = Release;
 		};
+		C75D2FE71A1F8326008AACA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CarthageTesting/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C75D2FE81A1F8326008AACA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CarthageTesting/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C75D2FEA1A1F8326008AACA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CarthageTestingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C75D2FEB1A1F8326008AACA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CarthageTestingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -290,6 +519,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		C75D2FE61A1F8326008AACA4 /* Build configuration list for PBXNativeTarget "CarthageTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75D2FE71A1F8326008AACA4 /* Debug */,
+				C75D2FE81A1F8326008AACA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C75D2FE91A1F8326008AACA4 /* Build configuration list for PBXNativeTarget "CarthageTestingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75D2FEA1A1F8326008AACA4 /* Debug */,
+				C75D2FEB1A1F8326008AACA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
