@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C75D2FD21A1F8326008AACA4"
-               BuildableName = "CarthageTesting.framework"
-               BlueprintName = "CarthageTesting"
-               ReferencedContainer = "container:STHTTPRequest.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C75D2FDC1A1F8326008AACA4"
-               BuildableName = "CarthageTestingTests.xctest"
-               BlueprintName = "CarthageTestingTests"
+               BlueprintIdentifier = "C75D2F5F1A1F5528008AACA4"
+               BuildableName = "STHTTPRequest.framework"
+               BlueprintName = "STHTTPRequest"
                ReferencedContainer = "container:STHTTPRequest.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,26 +28,7 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C75D2FDC1A1F8326008AACA4"
-               BuildableName = "CarthageTestingTests.xctest"
-               BlueprintName = "CarthageTestingTests"
-               ReferencedContainer = "container:STHTTPRequest.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C75D2FD21A1F8326008AACA4"
-            BuildableName = "CarthageTesting.framework"
-            BlueprintName = "CarthageTesting"
-            ReferencedContainer = "container:STHTTPRequest.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -75,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C75D2FD21A1F8326008AACA4"
-            BuildableName = "CarthageTesting.framework"
-            BlueprintName = "CarthageTesting"
+            BlueprintIdentifier = "C75D2F5F1A1F5528008AACA4"
+            BuildableName = "STHTTPRequest.framework"
+            BlueprintName = "STHTTPRequest"
             ReferencedContainer = "container:STHTTPRequest.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -93,9 +60,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C75D2FD21A1F8326008AACA4"
-            BuildableName = "CarthageTesting.framework"
-            BlueprintName = "CarthageTesting"
+            BlueprintIdentifier = "C75D2F5F1A1F5528008AACA4"
+            BuildableName = "STHTTPRequest.framework"
+            BlueprintName = "STHTTPRequest"
             ReferencedContainer = "container:STHTTPRequest.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
